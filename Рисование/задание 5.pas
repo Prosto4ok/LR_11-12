@@ -1,0 +1,20 @@
+﻿uses graphabc;
+begin
+setpencolor(clblack);
+circle(10,50,10);
+FloodFill(10,50,clnavy);
+circle(50,80,20);
+FloodFill(50,80,clviolet);
+circle(100,120,30);
+FloodFill(100,120,clturquoise);
+circle(160,160,40);
+FloodFill(160,160,clcrimson);
+circle(230,200,50);
+FloodFill(230,200,clorchid);
+circle(310,240,60);
+FloodFill(310,240,cldarkblue);
+circle(400,280,70);
+FloodFill(400,280,clblueviolet);
+circle(500,320,80);
+FloodFill(500,320,cldarkgreen);
+end.
